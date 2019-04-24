@@ -21,6 +21,8 @@ import com.reedcons.demo.business.impl.util.fs.ArchivoFSProperties;
 @EnableConfigurationProperties({ArchivoFSProperties.class})
 public class DemoApplication implements CommandLineRunner {
 	
+	//Example
+	
 	private Logger log=LoggerFactory.getLogger(this.getClass());
 
 	public static void main(String[] args) {
